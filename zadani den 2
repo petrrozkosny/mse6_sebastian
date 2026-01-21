@@ -2,7 +2,7 @@ Ze souboru nahrajte do Power Query: data1, data2, dim_geo
 V data1 a data2 smažte kroky měnící datové typy
 Do dotazu data spojte pod sebe data1 a data2
 Do dotazu data připojte z dim_geo sloupce: zeme, kraj
-Ve sloupci kraj nahraďte prázdné (null) hodnoty hodnotou „neznámé“
+Ve sloupci kraj nahraďte prázdné (" ") hodnoty hodnotou „neznámé“
 Dopočítejte sloupce: rok,  mesic
 Seskupte data podle zeme, kraj, lokalita, rok, mesic kdy chcete agregovat (suma) sloupec srazky do nového sloupce mesicni_srazky
 Do Power pivot nahrajte pouze tabulku data
